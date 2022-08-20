@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Altas"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Cursor Por defecto"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="ctCondiciones" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="ctColor" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="ctModelo" max="32767" attributes="0"/>
+                                      <Component id="ctPlacas" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="ctCajon" min="-2" pref="73" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="ctNivel" min="-2" pref="80" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="ctMarca" min="-2" pref="219" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Component id="ctAcomodador" min="-2" pref="185" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="cbTodos" min="-2" max="-2" attributes="0"/>
+                              <Component id="btGuardar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btActualizar" min="-2" max="-2" attributes="0"/>
+                              <Component id="btBuscar" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="620" max="-2" attributes="0"/>
+                          <Component id="btModificar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="722" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ctMarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ctModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ctColor" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ctPlacas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ctCondiciones" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ctCajon" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ctNivel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ctAcomodador" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btGuardar" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="btActualizar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane1" min="-2" pref="287" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="11" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="cbTodos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btBuscar" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="btModificar" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ingrese los datos del veh&#xed;culo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Marca:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctMarca">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modelo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctModelo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Color:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctColor">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Placas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctPlacas">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Condiciones del veh&#xed;culo: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctCondiciones">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Caj&#xf3;n: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctCajon">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nivel:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctNivel">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Acomodador:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="ctAcomodador">
+        </Component>
+        <Component class="javax.swing.JButton" name="btGuardar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Guardar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btGuardarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btBuscar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buscar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btBuscarActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="vehiculos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="ff" type="rgb"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="11" rowCount="8">
+                    <Column editable="false" title="Marca" type="java.lang.Object"/>
+                    <Column editable="false" title="Modelo" type="java.lang.Object"/>
+                    <Column editable="false" title="Color" type="java.lang.Object"/>
+                    <Column editable="false" title="Placas" type="java.lang.Object"/>
+                    <Column editable="false" title="Condiciones del veh&#xed;culo" type="java.lang.Object"/>
+                    <Column editable="false" title="Caj&#xf3;n" type="java.lang.Object"/>
+                    <Column editable="false" title="Nivel" type="java.lang.Object"/>
+                    <Column editable="false" title="Acomodador" type="java.lang.Object"/>
+                    <Column editable="false" title="Hora de Entrada" type="java.lang.Object"/>
+                    <Column editable="false" title="Hora de Salida" type="java.lang.Object"/>
+                    <Column editable="false" title="Estado" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btModificar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modificar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btModificarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbTodos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Todos"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbTodosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btActualizar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Actualizar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btActualizarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
